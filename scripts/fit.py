@@ -18,6 +18,7 @@ def fit_model():
 	# Прочитайте файл с гиперпараметрами params.yaml
     with open('params.yaml', 'r') as fd:
         params = yaml.safe_load(fd)
+    print("params")
     
 	# загрузите результат предыдущего шага: inital_data.csv
     #with open('data/initial_data.csv', 'r') as fd:
